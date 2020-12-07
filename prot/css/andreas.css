@@ -218,30 +218,30 @@ body{
 
 @media screen and (max-width: 600px){
 .shiny-text{
-	  font-size: 30px;
-	  top: 30%;
-	  text-align: center;
-	  transform: translate(-35%);
+	font-size: 30px;
+	top: 30%;
+	text-align: center;
+	transform: translate(-35%);
 }
 
 .mainimg img{
-	  width: 160px;
-	  height:160px;
-	  top: 60%;
-	  left: 50%;
+	width: 160px;
+	height:160px;
+	top: 60%;
+	left: 50%;
 }
-	  .imgss div img{
-	  height: 30%;
-	  width:30%;
-	  cursor: pointer;
-	}
+.imgss div img{
+	height: 30%;
+	width:30%;
+	cursor: pointer;
+}
 }
 
 @media screen and (max-width: 400px){
-	  .shiny-text{
-	  font-size: 30px;
-	  top: 30%;
-	  text-align: center;
-	  transform: translate(-10%);
-	  }
+.shiny-text{
+	font-size: 30px;
+	top: 30%;
+	text-align: center;
+	transform: translate(-10%);
+}
 }
