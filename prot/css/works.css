@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,300&display=swap');
+
+.wrks{
+	background-color: white;
+	position: absolute;
+	height: 0%;
+	width: 100%;
+	font-family: 'JetBrains Mono', monospace;
+	opacity: 0;
+	border-radius: 0% 0% 10% 10%;
+	pointer-events: none;
+	transition: opacity 1s cubic-bezier(0.63,-1.21, 0.38, 2.12),height 1s cubic-bezier(0.63,-1.21, 0.38, 2.12);
+}
+/*.wrks.showr.lll*/
+.wrks.showr{
+	opacity: 1;
+	pointer-events: auto;
+	height: 70%;
+}
+/*.wrkctn h1{
+	top: 5%;
+	transform: translate(-50%);
+}
+*/
+.wrkctn button{
+	position: absolute;
+	color: red;
+	bottom: 1px;
+	transform: translate(-50%);
+	background-color: transparent;
+	padding :10px;
+	border-color: red;
+	transition: color 500ms, border-color 500ms;
+}
+
+.wrkctn button:hover{
+	color: green;
+	border-color: green;
+}

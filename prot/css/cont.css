@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,300&display=swap');
+
+.shts{
+	display: inline;
+	list-style-type: none;
+}
+
+.shts li{
+	display: inline;
+	border-style: solid;
+	padding: 3px;
+}
+
+.uwuz{
+	opacity: 0;
+}
+.uwua{
+	opacity: 0;
+}
+.uwuy{
+	opacity: 0;
+}
+.uwuz.on{
+	opacity: 1;
+}
+
+.uwua.on{
+	opacity: 1;
+}
+
+.uwuy.on{
+	opacity: 1;
+}
